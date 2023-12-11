@@ -11,6 +11,7 @@ function App() {
 
   const handleSubmit = (e) => {
     e.preventDefault();
+    
     const newYoutubeUrl = `https://www.youtube.com/embed/${userInput}`;
     setYoutubeUrl(newYoutubeUrl);
   };
